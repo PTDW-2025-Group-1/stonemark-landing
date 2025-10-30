@@ -45,13 +45,6 @@ const CTA = () => {
               <Download className="mr-2 h-5 w-5" />
               Download for Android
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-border bg-card/50 backdrop-blur-sm hover:bg-card text-base sm:text-lg px-6 sm:px-10 py-5 sm:py-7 w-full sm:w-auto"
-            >
-              Coming to iOS Soon
-            </Button>
           </div>
 
           {/* Email Signup */}

@@ -3,9 +3,8 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Features from "@/components/Features";
 import AppPreview from "@/components/AppPreview";
+import APRUPP from "@/components/APRUPP.tsx";
 import Partnership from "@/components/Partnership";
-import TechStack from "@/components/TechStack";
-import Team from "@/components/Team";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
@@ -18,9 +17,8 @@ const Index = () => {
                 <About />
                 <Features />
                 <AppPreview />
+                <APRUPP />
                 <Partnership />
-                <TechStack />
-                <Team />
                 <CTA />
             </main>
             <Footer />

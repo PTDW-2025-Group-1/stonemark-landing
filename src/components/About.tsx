@@ -70,7 +70,7 @@ const About = () => {
                             <img
                                 src={appMockup}
                                 alt="Stone Mark App Interface"
-                                className="w-full max-w-7xl mx-auto drop-shadow-2xl"
+                                className="w-full max-w-5xl mx-auto drop-shadow-2xl"
                             />
                         </div>
                         {/* Glow Effect */}
