@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Stone Mark Design System - Dark Heritage Theme */
+    --background: 220 20% 10%;
+    --foreground: 210 20% 98%;
+
+    --card: 220 15% 15%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 220 15% 12%;
+    --popover-foreground: 210 20% 98%;
+
+    /* Stone Blue - Primary Brand Color */
+    --primary: 210 70% 57%;
+    --primary-foreground: 210 20% 98%;
+    --primary-glow: 210 80% 65%;
+
+    --secondary: 220 15% 20%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 220 15% 25%;
+    --muted-foreground: 210 10% 60%;
+
+    --accent: 210 70% 57%;
+    --accent-foreground: 210 20% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 210 70% 57%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(220, 20%, 10%) 0%, hsl(220, 25%, 15%) 50%, hsl(210, 30%, 20%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(210, 70%, 57%) 0%, hsl(210, 80%, 65%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(220, 15%, 15%) 0%, hsl(220, 15%, 12%) 100%);
+    --gradient-overlay: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+
+    /* Shadows */
+    --shadow-glow: 0 0 40px hsl(210 70% 57% / 0.3);
+    --shadow-card: 0 10px 30px -10px hsl(0 0% 0% / 0.5);
+    --shadow-elegant: 0 20px 60px -20px hsl(0 0% 0% / 0.7);
+
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
